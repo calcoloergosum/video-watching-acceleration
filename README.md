@@ -6,8 +6,8 @@ This script was intended to watch small scale math lectures/seminars, usually ho
 
 ## Motivation
 
-I watch videos fast-forward, usually x1.25. Faster than that I cannot fully comprehend the utterance anymore.
-Then when I was watching a random video on youtube, I realized that with subtitles, I can comfortably follow the argument of the speaker with playback speed of x1.5.
+I watch videos fast-forward, usually x1.25. Faster than that I cannot fully comprehend the utterances anymore.
+But when presented together with subtitles, I can comfortably follow the argument of the speaker with playback speed of x1.5 or more (depends on the speaker of course).
 Also, I usually skip the pauses by pressing right-arrow button on the keyboard with VLC. But it is easier to pause when I can't follow the video, than skipping when I can fully follow the video.
 
 Personal result is:
