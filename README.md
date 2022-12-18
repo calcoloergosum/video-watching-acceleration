@@ -8,6 +8,12 @@ This script was intended to watch small scale math lectures/seminars, usually ho
 
 I watch videos fast-forward, usually x1.25. Faster than that I cannot fully comprehend the utterance anymore.
 Then when I was watching a random video on youtube, I realized that with subtitles, I can comfortably follow the argument of the speaker with playback speed of x1.5.
+Also, I usually skip the pauses by pressing right-arrow button on the keyboard with VLC. But it is easier to pause when I can't follow the video, than skipping when I can fully follow the video.
+
+Personal result is:
+- Speed up by subtitles: about 25%
+- Speed up by long pause skip: about 60%
+- Overall speed-up: about 200%
 
 ## Methodology
 
