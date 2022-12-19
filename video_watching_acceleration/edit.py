@@ -19,7 +19,7 @@ def main():
     args = parser.parse_args()
 
     for src in args.src.glob(f"*.{args.ext}"):
-        dst = args.dst / {src.name}
+        dst = args.dst / src.name
         if dst.exists():
             print(f"Already processed {src.stem}. Skipping.")
             continue
@@ -34,7 +34,7 @@ def main():
         # Process video
         clip = VideoFileClip(src.as_posix())
         
-        clip_merged = concatenate_videoclips([clip.subclip(r['start'] / 16000, r['end'] / 16000) for _, r in df.iterrows()])
+        clip_merged = concatenate_videoclips([clip.subclip(r['start'], r['end']) for _, r in df.iterrows()])
         clip_merged.to_videofile(dst.as_posix(), codec="libx264", temp_audiofile='/tmp/_vad_merge_audio.m4a', remove_temp=True, audio_codec='aac')
 
         # Process subtitle
