@@ -4,6 +4,17 @@ Better experience for watching videos where people talk.
 
 This script was intended to watch small scale math lectures/seminars, usually hours long.
 
+## Sample
+
+Before: 28 seconds (Click to play):
+
+[![original](assets/original.png)](assets/original.mp4)
+
+After: 20 seconds (Click to play):
+
+[![processed](assets/processed.png)](assets/processed.mp4)
+
+
 ## Motivation
 
 I watch videos fast-forward, usually x1.25. Faster than that I cannot fully comprehend the utterances anymore.
