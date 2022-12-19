@@ -4,6 +4,15 @@ Better experience for watching videos where people talk.
 
 This script was intended to watch small scale math lectures/seminars, usually hours long.
 
+
+Before:
+
+![original](assets/original.mp4)
+
+After (No speed up):
+![processed](assets/processed.mp4)
+
+
 ## Motivation
 
 I watch videos fast-forward, usually x1.25. Faster than that I cannot fully comprehend the utterances anymore.
