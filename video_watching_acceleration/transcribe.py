@@ -32,14 +32,7 @@ def main():
     modify_model(model)
     for src in sorted(args.src.glob(f"*.{args.ext}")):
         if args.language == 'top30':
-            for language in [
-                'en', 'zh', 'de', 'es', 'ru',
-                'fr', 'pt', 'ko', 'ja', 'tr',
-                'pl', 'it', 'sv', 'nl', 'ca',
-                'fi', 'id', 'ar', 'uk', 'vi',
-                'he', 'el', 'da', 'ms', 'hu',
-                'ro', 'no', 'th', 'cs', 'ta',
-            ]:  # only top 30 languages
+            for language in TOP30:  # only top 30 languages
                 run(src, args.dst, language, model)
         elif args.language == 'all':
             for language in sorted(whisper.tokenizer.LANGUAGES):
